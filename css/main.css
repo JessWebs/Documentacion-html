@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-section {
+.section {
     background: #fe8c00;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f83600, #fe8c00);
@@ -79,8 +79,8 @@ footer p a:hover {
 
 @media screen and (max-width: 600px) {
     .img img {
-        width: 90%;
-        height: 300px;
+        width: 80%;
+        height: 80%;
     }
 
     .contact {

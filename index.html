@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jesús Florez Ascanio / Desarrollador web / JessWebs">
-    <meta name="description" content="Aprende todo lo que necesitas saber sobre el desarrollo web. Guía de documentación HTML5. Desde nivel básico hasta avanzado.">
+    <meta name="description"
+        content="Aprende todo lo que necesitas saber sobre el desarrollo web. Guía de documentación HTML5. Desde nivel básico hasta avanzado.">
     <meta name="keywords" content="HTML5, Desarrollo web, Etiquetas HTML, Estructura HTML">
     <title>Documentación HTML5</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -18,36 +19,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/html-5.png" alt="Logo HTML5" title="HTML5"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#html5">HTML5</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#estructura">Estructura básica</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#semantic">Semántica</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tags">Etiquetas</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/html-5.png" alt="Logo HTML5" title="HTML5"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#html5">HTML5</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#estructura">Estructura básica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#semantic">Semántica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tags">Etiquetas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="section">
+            <div class="front">
+                <img src="img/undraw_web_developer_re_h7ie.svg" alt="Desarrollador web">
             </div>
         </div>
-    </nav>
-    <section>
-        <div class="front">
-            <img src="img/undraw_web_developer_re_h7ie.svg" alt="Desarrollador web">
-        </div>
-    </section>
+    </header>
     <div class="row">
         <div class="col-12">
             <h1 class="text-center">Documentación H T M L</h1>
@@ -86,24 +89,28 @@
                     página web son las siguientes:</p>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        &lt!DOCTYPE html&gt : Es la única etiqueta que se escribe en mayúsculas y se
+                        &lt!DOCTYPE html&gt: Es la única etiqueta que se escribe en mayúsculas y se
                         usa para indicarle al navegador en qué versión de HTML estamos trabajando, en este caso declara
                         la versión 5 del lenguaje de etiquetado.
                     </li>
                     <li class="list-group-item">
-                        &lthtml&gt &lt/html&gt : Es la etiqueta raíz del archivo, entre estas se escribirá todo el
-                        código de nuestra página web. A esta etiqueta se le añade en atributo lang="" para especificar el idioma del contenido del sitio web.
+                        &lthtml&gt &lt/html&gt: Es la etiqueta raíz del archivo, entre estas se escribirá todo el
+                        código de nuestra página web. A esta etiqueta se le añade en atributo lang="" para especificar
+                        el idioma del contenido del sitio web.
                         <ul class="list-group">
-                            <li class="list-group-item">&lthead&gt &lt/head&gt : Dentro de esta etiqueta irá la configuración de la página
+                            <li class="list-group-item">&lthead&gt &lt/head&gt: Dentro de esta etiqueta irá la
+                                configuración de la página
                                 web, es decir, los metadatos, los estilos CSS, el título del documento y cualquier otra
                                 información relevante para los motores de búsqueda, pero que no será visible para los
                                 usuarios.
                                 <ul class="list-group">
-                                    <li class="list-group-item">&lttitle&gt &lt/title&gt : Etiqueta empleada para otorgarle un título a
+                                    <li class="list-group-item">&lttitle&gt &lt/title&gt: Etiqueta empleada para
+                                        otorgarle un título a
                                         nuestra página web.</li>
                                 </ul>
                             </li>
-                            <li class="list-group-item">&ltbody&gt &lt/body&gt: Aquí se desarrollan la gran mayoría de las etiquetas del
+                            <li class="list-group-item">&ltbody&gt &lt/body&gt: Aquí se desarrollan la gran mayoría de
+                                las etiquetas del
                                 documento, en esta sección irá toda la información que se mostrará a los usuarios, es
                                 decir, el contenido de la página web.</li>
                         </ul>
@@ -121,51 +128,68 @@
             </div>
         </div>
     </div>
-    <div id="semantic">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-center">Semántica</h2>
-                <p>
-                    Al igual que todos los lenguajes informáticos, HTML está desarrollado en el idioma inglés, pero a
-                    diferencia de los demás lenguajes, HTML es completamente semántico, esto quiere decir que las
-                    etiquetas son muy literales, lo que significa que los nombres de las etiquetas están directamente
-                    relacionados a sus funciones y contenido.
-                </p>
-                <p>Por ejemplo:</p>
-                <p>las etiquetas &ltfooter&gt &lt/footer&gt, tal como su nombre lo indica, encierran el contenido del
-                    pie de página del documento.</p>
-                <p>Las etiquetas &ltul&gt &lt/ul&gt y &ltol&gt &lt/ol&gt se usan para crear listas desordenadas y
-                    ordenadas, respectivamente. Sus nombres derivan de las siglas Unordered List y Ordered List.</p>
-                <p>Como podemos evidenciar en los ejemplos anteriores, las etiquetas nos informan sobre lo que trata su
-                    contenido, esto es la semántica</p>
-            </div>
-            <div class="col-md-6 img">
-                <img src="img/web-semantica.png" alt="La web semántica" width="430" height="400"
-                    title="La web semántica">
+    <main>
+        <div id="semantic">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center">Semántica</h2>
+                    <p>
+                        Al igual que todos los lenguajes informáticos, HTML está desarrollado en el idioma inglés, pero
+                        a,
+                        diferencia de los demás lenguajes, HTML es completamente semántico, esto quiere decir que las
+                        etiquetas son muy literales, lo que significa que los nombres de las etiquetas están
+                        directamente
+                        relacionados a sus funciones y contenido.
+                    </p>
+                    <p>Anteriormente estás etiquetas semánticas no existían, la forma más efectiva de separar los
+                        contenidos en
+                        secciones era mediante la etiqueta &ltdiv&gt, pero las etiquetas semánticas llegaron para ayudar
+                        a la optimización de los motores de búsqueda, ya que si se usan las etiquetas semánticas de
+                        forma correcta, la estructura final del sitio tendrá sentido por sí misma, es decir, los motores
+                        de búsqueda entenderán de mejor manera la estructura del sitio y, por lo tanto, posicionarán más
+                        arriba nuestros contenidos con respecto a los otros.</p>
+                    <p>Las etiquetas semánticas son las siguientes:</p>
+                    <ul>
+                        <li>
+                            <a href="#sem-et">Lista de contenedores semánticos</a>
+                        </li>
+                    </ul>
+                    <p>Como podrás evidenciar en los siguientes ejemplos, las etiquetas nos informan sobre lo que trata
+                        su
+                        contenido, esto es la semántica</p>
+                </div>
+                <div class="col-md-6 img">
+                    <img src="img/web-semantica.png" alt="La web semántica" width="430" height="400"
+                        title="La web semántica">
+                </div>
             </div>
         </div>
-    </div>
+    </main>
     <div id="tags">
         <div class="row">
             <h2 class="text-center">Clasificación de etiquetas</h2>
             <p>En HTML hay dos tipos de etiquetas:</p>
             <ul>
-                <li>Etiquetas compuestas: Son aquellas que requieren una etiqueta de apertura y otra de cierre para su correcta ejecución.</li>
-                <li>Etiquetas huérfanas: Vacías, así se les denomina a las etiquetas que no necesitan una etiqueta de cierre para su óptimo funcionamiento.</li>
+                <li>Etiquetas compuestas: Son aquellas que requieren una etiqueta de apertura y otra de cierre para
+                    su correcta ejecución.</li>
+                <li>Etiquetas huérfanas: Vacías, así se les denomina a las etiquetas que no necesitan una etiqueta
+                    de cierre para su óptimo funcionamiento.</li>
             </ul>
             <p>No son muchas las etiquetas vacías ya que la mayoría de las etiquetas son compuestas.</p>
         </div>
         <div class="row">
             <h3 class="text-center">Metadatos y links</h3>
-            <p>Todas las etiquetas meta, links a estilos CSS y otro tipo de links (CDN) de páginas externas se escriben dentro de la cabecera de la página web. Las etiquetas "meta" y "link" son huérfanas, es decir, que no necesitan de una etiqueta de cierre como otras etiquetas para que funcionen.</p>
+            <p>Todas las etiquetas meta, links a estilos CSS y otro tipo de links (CDN) de páginas externas se
+                escriben dentro de la cabecera de la página web. Las etiquetas "meta" y "link" son huérfanas, es
+                decir, que no necesitan de una etiqueta de cierre como otras etiquetas para que funcionen.</p>
         </div>
         <div class="row">
             <div class="col-12">
                 <table class="table">
-                    <!-- <caption class="text-center">Metadatos</caption> -->
                     <tr>
                         <th>&ltmeta charset="UTF-8"&gt</th>
-                        <td>Codificación regional de idioma que permite insertar un conjunto de caracteres epeciales y símbolos que no hay en el idioma inglés (ñ, tildes, etc).</td>
+                        <td>Codificación regional de idioma que permite insertar un conjunto de caracteres epeciales
+                            y símbolos que no hay en el idioma inglés (ñ, tildes, etc).</td>
                     </tr>
                     <tr>
                         <th>&ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt</th>
@@ -173,7 +197,8 @@
                     </tr>
                     <tr>
                         <th>&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</th>
-                        <td>Escala inicial del zoom de la página asociada al tamaño del ancho de pantalla de los diferentes dispositivos (diseño responsive).</td>
+                        <td>Escala inicial del zoom de la página asociada al tamaño del ancho de pantalla de los
+                            diferentes dispositivos (diseño responsive).</td>
                     </tr>
                     <tr>
                         <th>&ltmeta name="author" content="Jesús"&gt</th>
@@ -184,23 +209,29 @@
                         <td>Otorga una breve descripción del contenido del sitio web.</td>
                     </tr>
                     <tr>
-                        <th>&ltmeta name="keywords" content="HTML, HTML5, La web, Documentación, Etiquetas HTML"&gt</th>
-                        <td>Palabras claves para que el navegador o los motores de búsqueda encuentren la página web de acuerdo a la solicitud del usuario.</td>
+                        <th>&ltmeta name="keywords" content="HTML, HTML5, La web, Documentación, Etiquetas HTML"&gt
+                        </th>
+                        <td>Palabras claves para que el navegador o los motores de búsqueda encuentren la página web
+                            de acuerdo a la solicitud del usuario.</td>
                     </tr>
                     <tr>
                         <th>&ltlink rel="stylesheet" href="Ruta a la hoja de estilos"&gt</th>
-                        <td>Vinculación de los archivos de hojas de estilo en cascada externos para que los estilos puedan ser aplicados a los elementos de la página web.</td>
+                        <td>Vinculación de los archivos de hojas de estilo en cascada externos para que los estilos
+                            puedan ser aplicados a los elementos de la página web.</td>
                     </tr>
                     <tr>
                         <th>&ltlink rel="shortcut icon" href="Ruta a la imagen" type="image/x-icon"&gt</th>
-                        <td>Permite insertar una imagen de dimensiones pequeñas que se mostrará en la pestaña del navegador para personalizar el sitio web.</td>
+                        <td>Permite insertar una imagen de dimensiones pequeñas que se mostrará en la pestaña del
+                            navegador para personalizar el sitio web.</td>
                     </tr>
                 </table>
             </div>
         </div>
         <div class="row">
             <h3 class="text-center">Encabezados</h3>
-            <p>Las etiquetas de encabezado se usan para declarar títulos y subtítulos en el documento. Van enumeradas del 1 al 6: Este número indica la jerarquía del titular, siendo 1 el más importante y 6 el de menor relevancia.</p>
+            <p>Las etiquetas de encabezado se usan para declarar títulos y subtítulos en el documento. Van
+                enumeradas del 1 al 6: Este número indica la jerarquía del titular, siendo 1 el más importante y 6
+                el de menor relevancia.</p>
         </div>
         <div class="row">
             <div class="col-12">
@@ -240,7 +271,8 @@
                 <table class="table">
                     <tr>
                         <th>&ltp&gt &lt/p&gt</th>
-                        <td>Etiqueta usada para crear párrafos, dentro de esta etiqueta se coloca el contenido que se quiere transmitir.</td>
+                        <td>Etiqueta usada para crear párrafos, dentro de esta etiqueta se coloca el contenido que
+                            se quiere transmitir.</td>
                     </tr>
                     <tr>
                         <th>&ltpre&gt &lt/pre&gt</th>
@@ -260,7 +292,9 @@
                     </tr>
                     <tr>
                         <th>&ltstrong&gt &lt/strong&gt</th>
-                        <td>Además de aplicar negrita al texto, esta etiqueta se emplea principalmente en palabras claves con énfasis para facilitar las búsquedas en los navegadores web (<strong>Ejemplo</strong>).</td>
+                        <td>Además de aplicar negrita al texto, esta etiqueta se emplea principalmente en palabras
+                            claves con énfasis para facilitar las búsquedas en los navegadores web
+                            (<strong>Ejemplo</strong>).</td>
                     </tr>
                     <tr>
                         <th>&lti&gt &lt/i&gt</th>
@@ -295,7 +329,8 @@
         </div>
         <div class="row">
             <h3 class="text-center">Enlaces</h3>
-            <p>Los enlaces nos permiten conectar páginas entre sí o secciones de una misma página para navegar entre ellas.</p>
+            <p>Los enlaces nos permiten conectar páginas entre sí o secciones de una misma página para navegar entre
+                ellas.</p>
             <p>Hay dos tipos de enlaces:</p>
             <ul>
                 <li>URL absolutas: Links en la web.</li>
@@ -307,7 +342,9 @@
                 <table class="table">
                     <tr>
                         <th>&lta href="Ruta de navegación (absoluta o relativa)"&gt &lt/a&gt</th>
-                        <td>Crea un enlace a través de palabras clicables de un hipervínculo. Ejemplo: Si haces click sobre <a href="https://www.instagram.com/jesswebs06/" target="_blank">este texto</a> serás redireccionado a otra página web.</td>
+                        <td>Crea un enlace a través de palabras clicables de un hipervínculo. Ejemplo: Si haces
+                            click sobre <a href="https://www.instagram.com/jesswebs06/" target="_blank">este
+                                texto</a> serás redireccionado a otra página web.</td>
                     </tr>
                 </table>
             </div>
@@ -320,7 +357,10 @@
                 <table class="table">
                     <tr>
                         <th>&ltimg src="Ruta a la imagen" alt="Texto alternativo"&gt</th>
-                        <td>Al hacer uso de esta etiqueta puedes insertar una imagen a tu sitio web para que sea mucho más atractivo. El atributo alt se usa para dar una breve descripción del contenido de la imagen. Puedes usar los atributos width="" y height="" para modificar las dimensiones de la imagen, ancho y alto, respectivamente.</td>
+                        <td>Al hacer uso de esta etiqueta puedes insertar una imagen a tu sitio web para que sea
+                            mucho más atractivo. El atributo alt se usa para dar una breve descripción del contenido
+                            de la imagen. Puedes usar los atributos width="" y height="" para modificar las
+                            dimensiones de la imagen, ancho y alto, respectivamente.</td>
                     </tr>
                 </table>
             </div>
@@ -333,7 +373,10 @@
                 <table class="table">
                     <tr>
                         <th>&ltol&gt &lt/ol&gt</th>
-                        <td>Creación de listas ordenadas. las listas ordenas tienen algunos atributos como "reversed", que es aplicado para alterar el orden de la lista, es decir, para que empiece en orden descendente, de mayor a menor. También se puede modificar el tipo de lista y ser cambiada por letras o números romanos.</td>
+                        <td>Creación de listas ordenadas. las listas ordenas tienen algunos atributos como
+                            "reversed", que es aplicado para alterar el orden de la lista, es decir, para que
+                            empiece en orden descendente, de mayor a menor. También se puede modificar el tipo de
+                            lista y ser cambiada por letras o números romanos.</td>
                     </tr>
                     <tr>
                         <th>&ltul&gt &lt/ul&gt</th>
@@ -341,11 +384,13 @@
                     </tr>
                     <tr>
                         <th>&ltli&gt &lt/li&gt</th>
-                        <td>Los elementos li se anidan dentro de las etiquetas ol o ul para definir qué cantidad de items tendrá la lista.</td>
+                        <td>Los elementos li se anidan dentro de las etiquetas ol o ul para definir qué cantidad de
+                            items tendrá la lista.</td>
                     </tr>
                     <tr>
                         <th>&ltdl&gt &lt/dl&gt</th>
-                        <td>Creación de listas descriptivas, generalmente usadas para construir glosarios o diccionarios.</td>
+                        <td>Creación de listas descriptivas, generalmente usadas para construir glosarios o
+                            diccionarios.</td>
                     </tr>
                     <tr>
                         <th>&ltdt&gt &lt/dt&gt</th>
@@ -358,7 +403,7 @@
                 </table>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="sem-et">
             <h3 class="text-center">Contenedores semánticos</h3>
         </div>
         <div class="row">
@@ -366,11 +411,13 @@
                 <table class="table">
                     <tr>
                         <th>&ltheader&gt &lt/header&gt</th>
-                        <td>Es el encabezado de la página web; por lo general, dentro de estas etiquetas se agrega el logo, título, lema o slogan y un menú de navegación.</td>
+                        <td>Es el encabezado de la página web; por lo general, dentro de estas etiquetas se agrega
+                            el logo, título, lema o slogan y un menú de navegación.</td>
                     </tr>
                     <tr>
                         <th>&ltnav&gt &lt/nav&gt</th>
-                        <td>Menú de navegación, es decir, sección de la página que enlaza a otra páginas web o a secciones específicas dentro de la misma página.</td>
+                        <td>Menú de navegación, es decir, sección de la página que enlaza a otra páginas web o a
+                            secciones específicas dentro de la misma página.</td>
                     </tr>
                     <tr>
                         <th>&ltarticle&gt &lt/article&gt</th>
@@ -389,12 +436,13 @@
                         <td>Pie de página, aquí se indexa información de copyright y las redes sociales.</td>
                     </tr>
                     <tr>
-                        <th>&ltdiv&gt &lt/div&gt</th>
-                        <td>Divisor de contenido.</td>
-                    </tr>
-                    <tr>
                         <th>&ltsidebar&gt &lt/sidebar&gt</th>
                         <td>Agrupa un contenido en una columna que se dispone a la derecha de la página web.</td>
+                    </tr>
+                    <tr>
+                        <th>&ltdiv&gt &lt/div&gt</th>
+                        <td>Divisor de contenido (<b>NOTA:</b> la etiqueta&ltdiv&gt no es un contenedor semántico,
+                            pero hacer parte de los agrupadores de contenido).</td>
                     </tr>
                 </table>
             </div>
@@ -407,11 +455,18 @@
                 <table class="table">
                     <tr>
                         <th>&ltaudio src="Ruta al audio" type="audio/mp3" controls&gt &lt/audio&gt</th>
-                        <td>Esta etiqueta permite insertar un audio a tu página web; al usar el atributo "controls" se agregan controles para que el usuario pueda modificar el volumen, pausar o reproducir el audio.</td>
+                        <td>Esta etiqueta permite insertar un audio a tu página web; al usar el atributo "controls"
+                            se agregan controles para que el usuario pueda modificar el volumen, pausar o reproducir
+                            el audio.</td>
                     </tr>
                     <tr>
                         <th>&ltvideo src="Ruta al video" type="video/mp4" controls autoplay&gt &lt/video&gt</th>
-                        <td>Esta etiqueta permite insertar un video a tu página web; al igual que con las imagenes, puedes modificar las dimensiones del video con los atributos width="" y height="". También puedes incluir el atributo "controls" para agregar controles que le permitan al usuario modificar el volumen, pausar o reproducir el video. Otro atributo de los videos es "autoplay" que hace que el video se reproduzca automáticamente cuando cargue la página.</td>
+                        <td>Esta etiqueta permite insertar un video a tu página web; al igual que con las imagenes,
+                            puedes modificar las dimensiones del video con los atributos width="" y height="".
+                            También puedes incluir el atributo "controls" para agregar controles que le permitan al
+                            usuario modificar el volumen, pausar o reproducir el video. Otro atributo de los videos
+                            es "autoplay" que hace que el video se reproduzca automáticamente cuando cargue la
+                            página.</td>
                     </tr>
                 </table>
             </div>
@@ -424,11 +479,13 @@
                 <table class="table">
                     <tr>
                         <th>&ltform&gt &lt/form&gt</th>
-                        <td>Dentro de estas etiquetas se escriben todas las etiquetas que conforman el contenido del formulario.</td>
+                        <td>Dentro de estas etiquetas se escriben todas las etiquetas que conforman el contenido del
+                            formulario.</td>
                     </tr>
                     <tr>
                         <th>&ltfieldset&gt &lt/fieldset&gt</th>
-                        <td>Crea un cuadro que encierra las entradas que se coloquen dentro de la etiqueta, en resumen, se usa para agrupar elementos relacionados entre sí.</td>
+                        <td>Crea un cuadro que encierra las entradas que se coloquen dentro de la etiqueta, en
+                            resumen, se usa para agrupar elementos relacionados entre sí.</td>
                     </tr>
                     <tr>
                         <th>&ltlegend&gt &lt/legend&gt</th>
@@ -436,11 +493,13 @@
                     </tr>
                     <tr>
                         <th>&ltlabel for=""&gt &lt/label&gt</th>
-                        <td>La etiqueta permite dar un título o descripción a cada campo del formulario; además relaciona el texto con el campo al que corresponde.</td>
+                        <td>La etiqueta permite dar un título o descripción a cada campo del formulario; además
+                            relaciona el texto con el campo al que corresponde.</td>
                     </tr>
                     <tr>
                         <th>&ltinput&gt</th>
-                        <td>Hay varios tipos de input, pero básicamente son entradas en forma de cajas o botones donde se pide a los usuarios ingresar información.</td>
+                        <td>Hay varios tipos de input, pero básicamente son entradas en forma de cajas o botones
+                            donde se pide a los usuarios ingresar información.</td>
                     </tr>
                 </table>
             </div>
@@ -453,15 +512,18 @@
                 <table class="table">
                     <tr>
                         <th>type=""</th>
-                        <td>Define el tipo de entrada en que se convertirá el control, puede ser un campo de texto, un campo numérico, de contraseña, etc.</td>
+                        <td>Define el tipo de entrada en que se convertirá el control, puede ser un campo de texto,
+                            un campo numérico, de contraseña, etc.</td>
                     </tr>
                     <tr>
                         <th>name=""</th>
-                        <td>El valor de este campo debe coincidir con el valor del atributo for de la etiqueta label.</td>
+                        <td>El valor de este campo debe coincidir con el valor del atributo for de la etiqueta
+                            label.</td>
                     </tr>
                     <tr>
                         <th>value=""</th>
-                        <td>Propiedad aplicada a los botones que permite definir el contenido que dará un concepto al botón.</td>
+                        <td>Propiedad aplicada a los botones que permite definir el contenido que dará un concepto
+                            al botón.</td>
                     </tr>
                     <tr>
                         <th>placeholder=""</th>
@@ -469,19 +531,23 @@
                     </tr>
                     <tr>
                         <th>autocomplete="on/off"</th>
-                        <td>Se usa para que el input muestre sugerencias al usuario de algo que haya escrito anteriormente.</td>
+                        <td>Se usa para que el input muestre sugerencias al usuario de algo que haya escrito
+                            anteriormente.</td>
                     </tr>
                     <tr>
                         <th>min="" max=""</th>
-                        <td>Sirven para poner un límite de cantidad en el campo del formulario (solo aplica para number y range).</td>
+                        <td>Sirven para poner un límite de cantidad en el campo del formulario (solo aplica para
+                            number y range).</td>
                     </tr>
                     <tr>
                         <th>step=""</th>
-                        <td>También es usando en inputs de cantidad para indicar de cuánto en cuánto saltan los números.</td>
+                        <td>También es usando en inputs de cantidad para indicar de cuánto en cuánto saltan los
+                            números.</td>
                     </tr>
                     <tr>
                         <th>minlength="" maxlength=""</th>
-                        <td>Solo aplica para campos de texto y son usados para establecer un rango mínimo y máximo permitido de caracteres.</td>
+                        <td>Solo aplica para campos de texto y son usados para establecer un rango mínimo y máximo
+                            permitido de caracteres.</td>
                     </tr>
                     <tr>
                         <th>size=""</th>
@@ -489,19 +555,27 @@
                     </tr>
                     <tr>
                         <th>required</th>
-                        <td>El atributo required es empleado para indicar que un campo en un formulario es obligatorio y que el formulario no puede enviarse sin antes completar dicho campo.</td>
+                        <td>El atributo required es empleado para indicar que un campo en un formulario es
+                            obligatorio y que el formulario no puede enviarse sin antes completar dicho campo.</td>
                     </tr>
                     <tr>
                         <th>checked</th>
-                        <td>Al usar el atributo checked logramos que una casilla de verificación o un botón de radio aparezca marcado por defecto.</td>
+                        <td>Al usar el atributo checked logramos que una casilla de verificación o un botón de radio
+                            aparezca marcado por defecto.</td>
                     </tr>
                     <tr>
                         <th>autofocus</th>
-                        <td>El atributo autofocus se le atribuye al campo que necesitamos que aparezca seleccionado apenas cargue el formulario; generalmente se le coloca al primer campo. Este es un atributo irrepetible, es decir, solo puede colocarse una vez.</td>
+                        <td>El atributo autofocus se le atribuye al campo que necesitamos que aparezca seleccionado
+                            apenas cargue el formulario; generalmente se le coloca al primer campo. Este es un
+                            atributo irrepetible, es decir, solo puede colocarse una vez.</td>
                     </tr>
                     <tr>
                         <th>pattern=""</th>
-                        <td>Se emplea para limitar a que el usuario diligencie el campo siguiendo ciertos patrones o especificaciones. A las etiquetas que contengan este atributo debe añadirse también el atributo title="", el cual debe contener una descripción o ejemplo con el formato que debe ingresar el usuario para que, en caso de equivocarse, lea las indicaciones y pueda completar el campo, logrando enviar el formulario satisfactoriamente.</td>
+                        <td>Se emplea para limitar a que el usuario diligencie el campo siguiendo ciertos patrones o
+                            especificaciones. A las etiquetas que contengan este atributo debe añadirse también el
+                            atributo title="", el cual debe contener una descripción o ejemplo con el formato que
+                            debe ingresar el usuario para que, en caso de equivocarse, lea las indicaciones y pueda
+                            completar el campo, logrando enviar el formulario satisfactoriamente.</td>
                     </tr>
                 </table>
             </div>
@@ -510,14 +584,18 @@
     <footer>
         <h4>JessWebs / Art</h4>
         <div class="contact">
-            <a class="fa-brands fa-facebook" target="_blank" href="https://www.facebook.com/profile.php?id=100082955140599"></a>
+            <a class="fa-brands fa-facebook" target="_blank"
+                href="https://www.facebook.com/profile.php?id=100082955140599"></a>
             <a class="fa-brands fa-instagram" target="_blank" href="https://www.instagram.com/jesswebs06/"></a>
             <a class="fa-brands fa-github" target="_blank" href="https://github.com/JessWebs"></a>
-            <a class="fa-solid fa-envelope" target="_blank" href="mailto:jesswebdeveloper06@gmail.com?Subject=Estoy%20interesad@%20en%20tus%20servicios%20de%20desarrollador%20web."></a>
+            <a class="fa-solid fa-envelope" target="_blank"
+                href="mailto:jesswebdeveloper06@gmail.com?Subject=Estoy%20interesad@%20en%20tus%20servicios%20de%20desarrollador%20web."></a>
             <a class="fa-brands fa-linkedin-in" target="_blank" href="https://www.linkedin.com/in/jesswebs06/"></a>
-            <a class="fa-brands fa-whatsapp" target="_blank" href="https://wa.me/573028664002?text=¡Hola!%20Me%20interesa%20hablar%20contigo%20acerca%20del%20desarrollo%20de%20un%20sitio%20web."></a>
+            <a class="fa-brands fa-whatsapp" target="_blank"
+                href="https://wa.me/573028664002?text=¡Hola!%20Me%20interesa%20hablar%20contigo%20acerca%20del%20desarrollo%20de%20un%20sitio%20web."></a>
         </div>
-        <p class="text-center">Hecho por <a href="https://www.instagram.com/jesswebs06/" target="_blank">Jesús</a> con ❤️</p>
+        <p class="text-center">Hecho por <a href="https://www.instagram.com/jesswebs06/" target="_blank">Jesús</a>
+            con ❤️</p>
         <p>JessWebs / Web design &copy; 2022</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
